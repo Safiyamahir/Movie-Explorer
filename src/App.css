@@ -1,0 +1,23 @@
+/* Custom styles for App component */
+.App {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Smooth transition for dark mode changes */
+.dark .App {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+/* Ensure consistent padding and margin reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom button hover effect for Material-UI buttons */
+.MuiButton-root:hover {
+  background-color: #1976d2;
+  color: white;
+}
